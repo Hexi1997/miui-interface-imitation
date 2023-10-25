@@ -1,12 +1,14 @@
-import './App.css'
+import "./App.css";
+import { Header } from "./components/Header";
+import { SectionFirstScreen } from "./components/Sections/SectionFirstScreen";
 
 function App() {
-
   return (
-    <h1 className="text-3xl font-bold text-red-200 underline">
-      Hello world!
-    </h1>
-  )
+    <main>
+      <Header />
+      <SectionFirstScreen />
+    </main>
+  );
 }
 
-export default App
+export default App;
